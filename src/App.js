@@ -1,7 +1,7 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Sidebar from './components/Sidebar';
-import JsonFormatter from './components/JsonFormatter';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Sidebar from "./components/Sidebar";
+import JsonFormatter from "./components/JsonFormatter";
 import './App.css';
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
         <Sidebar />
         <div className="content">
           <Routes>
+            <Route path="/" element={<h1>Welcome to DevTools Hub</h1>} />
             <Route path="/json-formatter" element={<JsonFormatter />} />
-            {/* Add other tools here */}
           </Routes>
         </div>
       </div>
