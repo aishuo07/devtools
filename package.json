@@ -1,11 +1,12 @@
 {
-  "name": "dev-tools-hub",
+  "name": "devtools",
   "version": "1.0.0",
-  "homepage": "https://aishuo07.github.io/dev-tools-hub",
   "private": true,
+  "homepage": "https://aishuo07.github.io/devtools",
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
     "react-scripts": "5.0.0"
   },
   "scripts": {
